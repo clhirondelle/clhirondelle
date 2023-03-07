@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets\css\styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Bio Music</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="menu-bar">
+            <!-- NavBar -->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <div>
+                  <a href="/index.html">
+                    <h1>Cheryl L'Hirondelle</h1>
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul>
+                      <li>
+                        <button class="dropbtn" onclick="myFunction()">
+                          About
+                        </button>
+                      </li>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="/bio_art.html">Bio</a>
+                        <a href="/CV.html">CV</a>
+                      </div>
+                      <li><a href="/home.html">Art</a></li>
+                      <li><a href="/bio_music.html"><b>Music</b></a></li>
+                      <li><a href="/writing.html">Writing</a></li>
+                      <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <!-- NavBar END -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Music</h1>
+            </div>
+
+          <!-- Row#1 -->
+          <div class="row">
+            <div class="col p-3">
+              <a id="play" onmouseover="playMusic()" onmouseleave="stopMusic()" data-bs-toggle="modal" href="#musicModal-1">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/image5.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-2">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/Copy of 05-nikamok_cd 1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-3">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/NDNSPAM/NDNSPAM.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-4">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/Art Bio/Copy of 09-wepinasowina02 1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          
+          <!-- Row#2 -->
+          <div class="row">
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-5">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Bang It Up (the waking dreamer).jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-6">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Making Art (nim​ē​yw​ē​hitin - I am happy).jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-7">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/The Road.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-8">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/kinaw/kinaw.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Row#3 -->
+          <div class="row">
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-9">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Lightning Scarred Heart/Lightning Scarred Heart.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-10">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Come My Sisters, Come/Come My Sisters, Come.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+          <div class="col p-3">
+            <a data-bs-toggle="modal" href="#musicModal-11">
+              <img
+                class="thumbnail-pic"
+                src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <div class="col p-3">
+            <a data-bs-toggle="modal" href="#musicModal-12">
+              <img
+                class="thumbnail-pic"
+                src="assets/img/bio-music/music-modals/The Journey Home.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+
+          <!-- Row#4 -->
+          <div class="row">
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-13">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/The Beauty Within.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-14">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Can't Break Us.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-15">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/AllOurNations.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col p-3">
+              <a data-bs-toggle="modal" href="#musicModal-16">
+                <img
+                  class="thumbnail-pic"
+                  src="assets/img/bio-music/music-modals/Live the Life that is Meant for Me.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <!-- Modals Start -->
+    <!-- Modal # 1 -->
+    <div id="musicModal-1" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <div class="modal-title mx-auto">
+                <h3>gchi miigwech maskihkiya</h3>
+              </div>
+          </div>
+
+          <div class="modal-content">
+            <iframe
+             title="vimeo-player"
+             style="border: 0; width: 100%; height: 400px;"
+             src="https://player.vimeo.com/video/696825417?h=1ab3d99ee5"  allowfullscreen></iframe>
+          </div>
+          <div class="modal-body">
+            <h6>Credits</h6>
+            <p>
+              Music video of song commissioned for APTN's AMPLIFY series, directed by Shane Belcourt with soundbytes from Robin Wall Kimmerer, author Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants.            
+            </p>
+
+            <p>
+              Released September 9, 2020
+            </p>
+            <p>
+              Produced by David Travers-Smith (Found Sound, Toronto)
+            </p>
+            <p>
+              gchi-miigwech maskihkiya ©2019 SOCAN/Miyoh Music Inc.
+            </p>
+            <p>
+              Performed by Hidden River Singers with special guest Shane Belcourt (guitars)
+            </p>
+            <p>
+              Music and lyrics by Cheryl L'Hirondelle
+            </p>
+
+              <p>
+                ©2018 Miyoh Music/SOCAN
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal # 2 -->
+    <div id="musicModal-2" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>NIKAMOK</h3>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+              id="carouselExampleCaptions2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/bio-music/music-modals/Nikamok/Nikamok.jpg"
+                    alt="..."
+                    style="width: 35%"
+                  />
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Carousel stop -->
+          </figure>
+          <div class="modal-content">
+            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1632347500/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=none/track=431764548/transparent=true/" seamless><a href="https://nikamok.bandcamp.com/album/nikamok">NIKAMOK by NIKAMOK</a></iframe>
+          </div>
+          <div class="modal-body">
+            <h6>Credits</h6>
+            <p>
+              from NIKAMOK, released July 30, 2014
+            </p>
+            <p>
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal # 3 -->
+    <div id="musicModal-3" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>Mama Always Said (NDNSPAM Song)</h3>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 400px;" src="https://www.youtube.com/embed/Qf_z26cq9so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <br>
+            <p>
+              Theme song for the net.art project <a href="https://www.ndnspam.com">ndnspam.com</a> by Cheryl L'Hirondelle
+            </p>
+            <h6>Credits</h6>
+            <p>
+              Song lyrics commissioned by Poetry Gabriola Festival as part of Canada Speaks, video & website (www.ndnspam.com) commissioned by Tribe Inc. with extra support from Banff Centre for the Arts, Aboriginal Arts Program, B.C. Arts Council Media Arts Program & Canada Council for the Arts Media Arts Program.
+            </p>
+            <p>
+              Words and melody by Cheryl L'Hirondelle
+            </p>
+            <p>
+              Our Mama Said (NDNSPAM Song) was produced and mixed by Gregory Hoskins & mastered by Ron Skinner
+            </p>
+            <p>
+              Video co-directed by Gregory Hoskins & Cheryl L'Hirondelle
+            </p>
+            <p>
+              Edited by Gregory Hoskins
+            </p>
+            <p>
+              Greenscreen shot on location OCADU, Toronto - thanks to Integrated Media staff and their shooting studio. Extra footage via skype and a hijacked wifi signal between Guelph ON and Calgary AB.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal # 4 -->
+     <div id="musicModal-4" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>kitaskihkanaw</h3>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+              id="carouselExampleCaptions2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/Art Bio/Copy of 09-wepinasowina02 1.png"
+                    alt="..."
+                    style="width: 35%"
+                  />
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Carousel stop -->
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=657485915/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://cheryllhirondelle.bandcamp.com/track/kitaskihkanaw">kitaskihkanaw by Cheryl L&#39;Hirondelle</a></iframe>
+            </div>      
+            <br>
+            <h6>Credits</h6>
+            <p>released July 26, 2014</p>
+            <p>lyrics by: Joseph Naytowhow and Cheryl L'Hirondelle</p>
+            <p>melody by: Cheryl L'Hirondelle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal # 5 -->
+    <div id="musicModal-5" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>Bang It Up (the waking dreamer)
+              </h3>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/Bang It Up (the waking dreamer).jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/track=1415787158/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://cheryllhirondelle.bandcamp.com/track/bang-it-up-the-waking-dreamer">Bang It Up (the waking dreamer) by Cheryl L&#39;Hirondelle</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+              Released Februreleased January 25, 2023
+              ary 7, 2009
+              <br>
+              Bang It Up (the waking dreamer)
+              <br>
+              Lyrics by Cheryl L'Hirondelle, Ahasiw Maskegon Iskwew and Lynn Acoose
+              <br>
+              ©1996 SOCAN / Miyoh Music
+              <br>
+              <br>
+              Guitars: Mark Schmidt
+              <br>
+              Vox: Cheryl L'Hirondelle
+              <br>
+              Spoken word + growls/grunts: Ahasiw Maskegon Iskwew
+              <br>
+              mixed/mastered at Banff Centre for the Arts
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 6 -->
+    <div id="musicModal-6" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header text-center">
+                <div class="modal-title mx-auto">
+                <h3>Making Art (nim​ē​yw​ē​hitin - I am happy)
+                </h3>
+              </div>
+            </div>
+            <figure class="text-center">
+              <!-- Carousel start -->
+              <div
+                id="carouselExampleCaptions2"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/img/bio-music/music-modals/Making Art (nim​ē​yw​ē​hitin - I am happy).jpg"
+                      alt="..."
+                      style="width: 35%"
+                    />
+                  </div>
+  
+                </div>
+  
+              </div>
+              <!-- Carousel stop -->
+            </figure>
+            <div class="modal-body">
+              <div class="modal-content">
+                <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2370320159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://cheryllhirondelle.bandcamp.com/track/making-art-nim-yw-hitin-i-am-happy">Making Art (nimēywēhitin - I am happy) by Cheryl L&#39;Hirondelle</a></iframe>
+              </div>
+              <br>
+              <h6>Credits</h6>
+              <p>
+                released January 25, 2023
+                <br />
+                Making Art ©2010 SOCAN/Miyoh Music
+                <br />
+                music and lyrics by Cheryl L'Hirondelle
+              </p>
+              <p>
+                Performed by Cheryl L'Hirondelle (vocals)
+                <br>
+                vocals recorded by Cheryl L'Hirondelle
+                <br>
+                all instruments recorded, mixed and produced by Gregory Hoskins
+                <br>
+                all rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal # 7 -->
+    <div id="musicModal-7" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>The Road
+              </h3>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+              id="carouselExampleCaptions2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/bio-music/music-modals/The Road.jpg"
+                    alt="..."
+                    style="width: 35%"
+                  />
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Carousel stop -->
+            <figcaption class="figure-caption">photo credit: Jason Jenkins</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2370320159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://cheryllhirondelle.bandcamp.com/track/making-art-nim-yw-hitin-i-am-happy">Making Art (nimēywēhitin - I am happy) by Cheryl L&#39;Hirondelle</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              released January 25, 2023
+              <br />
+              The Road
+              <br>
+              ©2009 SOCAN/Miyoh Music
+              <br />
+              music and lyrics by Cheryl L'Hirondelle
+            </p>
+            <p>
+              vox: Cheryl L'Hirondelle
+              <br>
+              vox recorded by Cheryl L'Hirondelle
+              <br>
+              all other instruments + mixed/mastered by: Gregory Hoskins
+              <br>
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 8 -->
+    <div id="musicModal-8" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>kinaw</h3>
+              <p>From "Giveaway"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+           <!-- Carousel start -->
+           <div
+           id="carouselExampleCaptions4"
+           class="carousel slide"
+           data-bs-ride="carousel"
+         >
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img
+                 src="assets/img/bio-music/music-modals/kinaw/kinaw.jpg"
+                 alt="..."
+                 style="width: 35%"
+               />
+             </div>
+           </div>
+             <span class="visually-hidden">Next</span>
+         </div>
+         <!-- Carousel stop -->
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=520334551/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/track=4070532175/transparent=true/" seamless><a href="https://cheryllhirondelle.bandcamp.com/album/giveaway-5-song-ep">Giveaway - 5 song EP by Cheryl L&#39;Hirondelle</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+              From Giveaway - 5 song EP,
+              <br>
+              Released February 7, 2009
+              <br>
+              Cheryl L'Hirondelle - vocals
+              <br>
+              Gregory Hoskins - loops
+              <br>
+              Richard and Donald - spoken word
+              <br>
+              Produced by Gregory Hoskins
+              <br>
+              Recorded on the streets of Vancouver December 2008 and January 2009 at Found Sound
+              <br>
+              (David Travers-Smith, engineer)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 9 -->
+    <div id="musicModal-9" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>Lightning Scarred Heart</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+              id="carouselExampleCaptions2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/bio-music/music-modals/Lightning Scarred Heart/Lightning Scarred Heart.jpg"
+                    alt="..."
+                    style="width: 35%"
+                  />
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Carousel stop -->
+            <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=827990389/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/lightning-scarred-heart">Lightning Scarred Heart by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal # 10 -->
+    <div id="musicModal-10" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>Come My Sisters, Come</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+           <!-- Carousel start -->
+           <div
+           id="carouselExampleCaptions4"
+           class="carousel slide"
+           data-bs-ride="carousel"
+         >
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img
+                 src="assets/img/bio-music/music-modals/Come My Sisters, Come/Come My Sisters, Come.jpg"
+                 alt="..."
+                 style="width: 35%"
+               />
+             </div>
+           </div>
+             <span class="visually-hidden">Next</span>
+         </div>
+         <!-- Carousel stop -->
+         <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2290662592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/come-my-sisters-come">Come My Sisters, Come by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal # 11 -->
+    <div id="musicModal-11" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>A Journey to Freedom</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/album=2682419045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/a-journey-to-freedom">A Journey to Freedom by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 12 -->
+    <div id="musicModal-12" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-center">
+              <div class="modal-title mx-auto">
+              <h3>Come My Sisters, Come</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+           <!-- Carousel start -->
+           <div
+           id="carouselExampleCaptions4"
+           class="carousel slide"
+           data-bs-ride="carousel"
+         >
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img
+                 src="assets/img/bio-music/music-modals/Come My Sisters, Come/Come My Sisters, Come.jpg"
+                 alt="..."
+                 style="width: 35%"
+               />
+             </div>
+           </div>
+             <span class="visually-hidden">Next</span>
+         </div>
+         <!-- Carousel stop -->
+         <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2290662592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/come-my-sisters-come">Come My Sisters, Come by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 13 -->
+    <div id="musicModal-13" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>A Journey to Freedom</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/album=2682419045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/a-journey-to-freedom">A Journey to Freedom by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 14 -->
+    <div id="musicModal-14" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>A Journey to Freedom</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/album=2682419045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/a-journey-to-freedom">A Journey to Freedom by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal # 15 -->
+    <div id="musicModal-15" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>A Journey to Freedom</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/album=2682419045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/a-journey-to-freedom">A Journey to Freedom by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal # 16 -->
+    <div id="musicModal-16" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header text-end">
+              <div class="modal-title mx-auto">
+              <h3>A Journey to Freedom</h3>
+              <p>From "Why the Caged Bird Sings"</p>
+            </div>
+          </div>
+          <figure class="text-center">
+            <!-- Carousel start -->
+            <div
+            id="carouselExampleCaptions4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bio-music/music-modals/A Journey to Freedom.jpg"
+                  alt="..."
+                  style="width: 35%"
+                />
+              </div>
+            </div>
+              <span class="visually-hidden">Next</span>
+          </div>
+          <!-- Carousel stop -->
+          <figcaption>Cover art by Charnelle Swiftwolfe</figcaption>
+          </figure>
+          <div class="modal-body">
+            <div class="modal-content">
+              <iframe style="border: 0; width: 100%; height: 120px;"  src="https://bandcamp.com/EmbeddedPlayer/album=2682419045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://whythecagedbirdsings.bandcamp.com/album/a-journey-to-freedom">A Journey to Freedom by Cheryl L&#39;Hirondelle and friends</a></iframe>
+            </div>
+            <br>
+            <h6>Credits</h6>
+            <p>
+              Released September 12, 2019
+              <br>
+              ©2010 SOCAN/Miyoh Music
+              <br>
+              Lyrics by:
+              <br>
+              Maureen Montgrand, Elizabeth Charles, Bernice Sanderson, Deanna Renee Desjarlais, Melody Bird, Angela Rabbitskin, M. Henderson and Carla Johnson
+              Music by Cheryl L'Hirondelle and Gregory Hoskins
+              <br>
+              <br>
+              Song collaboratively composed & women's voices recorded live, October 2010 at Pine Grove Correctional Centre, SK.
+              <br>
+                <br>
+                Lead vocals, harmonies and vocables/chanting êkwa ka cistâwêhtâkosihk (leles): all lyricists
+                <br>
+                Spoken word: Bernice Sanderson
+                <br>
+                Handdrums and extra vocals: Cheryl L'Hirondelle
+                <br>
+                Guitars and extra percussion: Gregory Hoskins
+                <br>
+                Song arranged by Cheryl L'Hirondelle and Gregory Hoskins
+                <br>
+                Co-produced by Cheryl L'Hirondelle, Gregory Hoskins and David Travers-Smith
+                <br>
+                Mixed and mastered by David Travers-Smith, Found Sound, Toronto.
+              <br>
+              <br>
+              Huge gratitude to:
+              Judy McNaughton (Artistic Director - Common Weal Community Arts) and Carla Johnson (Teacher Therapist - Pine Grove Correctional Centre).
+              license
+              all rights reserved
+            </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    
+
+    <script type="text/javascript" src="assets/js/dropDown.js"></script>  
+  </body>
+</html>

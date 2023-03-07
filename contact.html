@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets\css\styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="menu-bar">
+            <!-- NavBar -->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <div>
+                  <a href="/index.html">
+                    <h1>Cheryl L'Hirondelle</h1>
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse p-1"
+                    id="collapsibleNavbar"
+                  >
+                    <ul>
+                      <li>
+                        <button class="dropbtn" onclick="myFunction()">
+                          About
+                        </button>
+                      </li>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="/bio_art.html">Bio</a>
+                        <a href="/CV.html">CV</a>
+                      </div>
+                      <li><a href="/home.html">Art</a></li>
+                      <li><a href="/bio_music.html">Music</a></li>
+                      <li>
+                        <a href="/writing.html">Writing</a>
+                      </li>
+                      <li>
+                        <a href="/contact.html"><b>Contact</b></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <!-- NavBar END -->
+          </div>
+        </div>
+
+        <div class="col-md-1 offset-md-1">
+          <div class="contact-form">
+            <h1>Contact</h1>
+            <form action="">
+              <input type="text" id="name" value="Name" />
+              <input type="email" id="email" value="Email" />
+              <input type="text" id="subject" value="Subject" />
+              <textarea
+                name="message"
+                id="message"
+                cols="40"
+                rows="4"
+              ></textarea>
+              <input type="button" id="submit" value="Submit" />
+              <br />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-4 offset-md-4">
+          <div>
+            <a href="https://github.com/clhirondelle">
+              <img src="/assets/img/icons/githubLogo.png" alt="github logo" />
+            </a>
+            <a href="https://github.com/clhirondelle">
+              <img src="/assets/img/icons/twitterLogo.png" alt="twitter logo" />
+            </a>
+            <a href="https://github.com/clhirondelle">
+              <img
+                src="/assets/img/icons/bandcampLogo.png"
+                alt="bandcamp logo"
+              />
+            </a>
+            <a href="https://github.com/clhirondelle">
+              <img src="/assets/img/icons/linkedinLofo.png" alt="github logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="text-center p-4">Site Designed By Callum Beckford</div>
+    </footer>
+    <!-- Footer -->
+    <script type="text/javascript" src="assets/js/dropDown.js"></script>
+  </body>
+</html>
