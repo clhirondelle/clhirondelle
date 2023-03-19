@@ -16,6 +16,9 @@
     height: 158px;
 }
 
+
+
+
 .thumbnail-pic:hover{
       box-shadow: 0 0 2px 1px  rgba(223, 0, 0, 0.75);
 }
@@ -28,6 +31,7 @@
     height: 158px;
     text-align: center;
 }
+
 
 .place-holder-card:hover{
       box-shadow: 0 0 2px 1px  rgba(223, 0, 0, 0.75);
